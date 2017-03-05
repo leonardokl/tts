@@ -1,5 +1,5 @@
 {
-  "name": "tts",
+  "name": "tts-js",
   "description": "Synthetize text to speech using the browser speechSynthesis",
   "version": "1.0.0",
   "author": "Leonardo Luiz <leonardokl@hotmail.com>",
