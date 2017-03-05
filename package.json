@@ -1,0 +1,30 @@
+{
+  "name": "tts",
+  "description": "Synthetize text to speech using the browser speechSynthesis",
+  "version": "1.0.0",
+  "author": "Leonardo Luiz <leonardokl@hotmail.com>",
+  "main": "dist/tts.js",
+  "keywords": [
+    "speech",
+    "recognition",
+    "SpeechRecognition"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leonardokl/tts.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/tts.js -o dist/tts.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-preset-babili": "^0.0.12",
+    "babel-preset-es2015": "^6.22.0"
+  },
+  "dependencies": {}
+}
