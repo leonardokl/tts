@@ -1,4 +1,4 @@
-# TTS - Text to speech
+# TTS-JS - Text to speech
 
 Synthetize text to speech using the browser speechSynthesis
 
@@ -7,14 +7,14 @@ Synthetize text to speech using the browser speechSynthesis
 ## Instaling
 
 ```
-npm install -S tts
+npm i -S tts-js
 ```
 
 ## Usage
 
 ``` javascript
-// const tts = require('tts')
-import tts from 'tts'
+// const tts = require('tts-js')
+import tts from 'tts-js'
 
 tts.speak('Hello World')
 ```
